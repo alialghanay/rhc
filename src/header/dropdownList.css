@@ -1,0 +1,28 @@
+.hidden {
+    display: none;
+    position: absolute;
+    background-color: brown;
+    list-style: none;
+    padding: 0.4rem;
+    margin-top: 0.7rem;
+    width: auto;
+    height: auto;
+}
+
+.visible {
+    display: block;
+    position: absolute;
+    background: rgb(165,0,37);
+    list-style: none;
+    padding: 0.4rem;
+    margin-top: 0.7rem;
+    width: auto;
+    height: auto;
+    border-radius: 0.25rem;
+}
+
+.dropdown:hover .hidden{
+    display: block;
+    background: rgb(165,0,37);
+    border-radius: 0.25rem;
+}

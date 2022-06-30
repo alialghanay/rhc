@@ -1,0 +1,107 @@
+[
+    {
+        "divName": "Home",
+        "divTitle": "advertisement",
+        "className": "link",
+        "Advertisement": [
+            {
+                "tilte": "Sleep Study",
+                "img": "./img/sleep-study.jpg",
+                "alt": "Sleep Study",
+                "figer": "A device for collecting data during sleep, analyzing data and issuing a detailed report to diagnose cases of intermittent sleep suffocation"
+            },
+            {
+                "tilte": "Portable ECG",
+                "img": "./img/ecg.jpg",
+                "alt": "ECG",
+                "figer": "Portable ECG device and 24 hour data storage with detailed report"
+            },
+            {
+                "tilte": "Blood Analysis",
+                "img": "./img/blood-analysis.jpg",
+                "alt": "Blood Analysis",
+                "figer": "General analyzes for early examination of diabetes, kidney and liver diseases"
+            },
+            {
+                "tilte": "Body Composition",
+                "img": "./img/body-composition.jpg",
+                "alt": "Body Composition",
+                "figer": "Total body measurements of weight, mass, percentage of fat and lipids, and basal metabolic rate"
+            },
+            {
+                "tilte": "Blood Pressure",
+                "img": "./img/blood-pressure.jpg",
+                "alt": "Blood Pressure",
+                "figer": "Portable pressure device for automatic measurements of pressure for 24 hours"
+            }
+        ]
+    },
+    {
+        "divName": "Our Services",
+        "divTitle": "our-services",
+        "className": "dropdown",
+        "contant": [
+            {
+                "title": "Health Screening",
+                "id": "health-screening",
+                "pragraf": "long text "
+            },
+            {
+                "title": "Complete Medical",
+                "id": "complete-medical",
+                "pragraf": "long text "
+            },
+            {
+                "title": "Pre-Employment",
+                "id": "pre-employment",
+                "pragraf": "long text "
+            },
+           {
+                "title": "Fitness",
+                "id": "fitness",
+                "pragraf": "long text "
+            },
+            {
+                "title": "Well Being",
+                "id": "well-being",
+                "pragraf": "long text "
+            }
+        ]
+    },
+    {"divName": "Location",    "divTitle": "location",
+        "className": "link","Location": "url"},
+    {
+        "divName": "Doctors",
+        "divTitle": "doctors",
+        "className": "link",
+        "Doctors": [
+            {"name": "any", "decription": "long text"},
+            {"name": "any", "decription": "long text"},
+            {"name": "any", "decription": "long text"}
+        ]
+    },
+    {"divName": "WorkHours", "divTitle": "work-hours",
+        "className": "link","WorkHours": {"opening-time": "","closing-time": "","towmorw apoitmnts": ""}},
+    {
+        "divName": "about us",
+        "divTitle": "about-us",
+        "className": "dropdown",
+        "contant":[   
+            {
+                "title": "Vision",
+                "id": "vision",
+                "pragraf": "long text "
+            },
+            {
+                "title": "Massge",
+                "id": "massge",
+                "pragraf": "long text "
+            },
+            {
+                "title": "Gole",
+                "id": "gole",
+                "pragraf": "long text "
+            }
+        ]
+    }
+]

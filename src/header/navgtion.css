@@ -1,0 +1,25 @@
+.dropdown{
+    margin-left: 8rem;
+    margin-bottom: 0.2rem;
+    padding: .25rem;
+}
+
+.dropdown:hover{
+    background: rgb(165,0,37);
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.link {
+    margin-left: 8rem;
+    margin-bottom: 0.2rem;
+    padding: .25rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover{
+    background: rgb(165,0,37);
+    border-radius: 0.25rem;
+    cursor: pointer;
+}

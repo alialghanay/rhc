@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(165,0,37);
+    background: radial-gradient(circle, rgba(165,0,37,1) 0%, rgba(106,24,20,1) 25%, rgba(165,0,28,1) 50%, rgba(106,24,20,1) 75%, rgba(165,0,6,0.95) 100%);
+    color: white;
+    border-bottom: medium solid black;
+    margin: 0;
+    padding: 0;
+}
+
+#header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-png {
+    border: medium solid #fff;
+    background-color: #fff;
+    max-width: 60px;
+    height: auto;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-left: 0.25rem;
+}
+
+.logo-text {
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0;
+    font-family: 'Joan', serif;
+    white-space: nowrap;
+}
+
+
+#navgtion {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 1rem;
+}
