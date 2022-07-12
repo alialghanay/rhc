@@ -17,7 +17,7 @@ function Navgtion(props) {
         );
     }else {
         return (
-            <a className={props.className} href={props.title}>
+            <a className={props.className} href={`#${props.title}`}>
                 {props.children}
             </a>
         )

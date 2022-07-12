@@ -1,3 +1,9 @@
+#ul-continer {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+}
+
 .hidden {
     display: none;
     position: absolute;
@@ -19,10 +25,12 @@
     width: auto;
     height: auto;
     border-radius: 0.25rem;
+    z-index: 1;
 }
 
 .dropdown:hover .hidden{
     display: block;
     background: rgb(165,0,37);
     border-radius: 0.25rem;
+    z-index: 1;
 }

@@ -1,0 +1,20 @@
+body {
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  position: fixed;
+  height: auto;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: ;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdc1c6;
+  border-radius: 5vh;
+}
+
+/* ::-webkit-scrollbar */

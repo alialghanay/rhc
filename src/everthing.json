@@ -6,32 +6,32 @@
         "Advertisement": [
             {
                 "tilte": "Sleep Study",
-                "img": "./img/sleep-study.jpg",
-                "alt": "Sleep Study",
+                "img": "./sleep-study.jpg",
+                "descrption": "Sleep Study",
                 "figer": "A device for collecting data during sleep, analyzing data and issuing a detailed report to diagnose cases of intermittent sleep suffocation"
             },
             {
                 "tilte": "Portable ECG",
-                "img": "./img/ecg.jpg",
-                "alt": "ECG",
+                "img": "./ecg.jpg",
+                "descrption": "ECG",
                 "figer": "Portable ECG device and 24 hour data storage with detailed report"
             },
             {
                 "tilte": "Blood Analysis",
-                "img": "./img/blood-analysis.jpg",
-                "alt": "Blood Analysis",
+                "img": "./blood-analysis.jpg",
+                "descrption": "Blood Analysis",
                 "figer": "General analyzes for early examination of diabetes, kidney and liver diseases"
             },
             {
                 "tilte": "Body Composition",
-                "img": "./img/body-composition.jpg",
-                "alt": "Body Composition",
+                "img": "./body-composition.jpg",
+                "descrption": "Body Composition",
                 "figer": "Total body measurements of weight, mass, percentage of fat and lipids, and basal metabolic rate"
             },
             {
                 "tilte": "Blood Pressure",
-                "img": "./img/blood-pressure.jpg",
-                "alt": "Blood Pressure",
+                "img": "./blood-pressure.jpg",
+                "descrption": "Blood Pressure",
                 "figer": "Portable pressure device for automatic measurements of pressure for 24 hours"
             }
         ]
@@ -44,32 +44,36 @@
             {
                 "title": "Health Screening",
                 "id": "health-screening",
-                "pragraf": "long text "
+                "pragraf": "Health screening or blood test is a major part of many routine medical examinations. While doctors are able to make fairly accurate diagnosis by assessing the signs and symptoms a patient exhibits, one of the best ways to confirm the diagnosis is through blood tests. For a healthy person, health screening could also detect abnormalities that the person is not aware of and provide important information for diagnosis, treatment or preventive measures for illnesses and diseases."
             },
             {
-                "title": "Complete Medical",
+                "title": "Complete Medical Checkup",
                 "id": "complete-medical",
-                "pragraf": "long text "
+                "pragraf": " A full body checkup is necessary as it helps you to take necessary steps in prevention or an early detection of any potential illness. Let's face it... In India, majority of us feel that we don't need health checkups and that it is a waste of money. However, if we think more vigilantly, these comprehensive health checkup packages have ALWAYS proved to be the smartest way to save on some extensive surgeries that might be required in case of an undiagnosed disease. "
             },
             {
-                "title": "Pre-Employment",
+                "title": "Pre-Employment Checks",
                 "id": "pre-employment",
-                "pragraf": "long text "
+                "pragraf": " Many employers will conduct pre-employment screenings before they send you a job offer. Potential employers will typically perform a screening sometime during the interview process to assist in their hiring decision. There are a variety of screenings potential employers can use to get a thorough understanding of your background. In this article, we will explain what pre-employment screening is and how you can prepare for it. "
             },
            {
                 "title": "Fitness",
                 "id": "fitness",
-                "pragraf": "long text "
+                "pragraf": " Walking, lifting weights, doing chores - it's all good. Regardless of what you do, regular exercise and physical activity is the path to health and well-being. Exercise burns fat, builds muscle, lowers cholesterol, eases stress and anxiety, lets us sleep restfully. In this guide, we match resources to your exercise needs -- at every fitness level. "
             },
             {
                 "title": "Well Being",
                 "id": "well-being",
-                "pragraf": "long text "
+                "pragraf": " Our health and well being is determined by a complex combination of our genetic and environmental factors that have occurred throughout our life. Some healthcare providers focus on diagnosing disease and then treating the disease with a predetermined protocol. This does not take into consideration our unique set of personal circumstances and ultimately, our overall well being. "
             }
         ]
     },
-    {"divName": "Location",    "divTitle": "location",
-        "className": "link","Location": "url"},
+    {
+        "divName": "Location",
+        "divTitle": "location",
+        "className": "link",
+        "Location": "url"
+    },
     {
         "divName": "Doctors",
         "divTitle": "doctors",
@@ -80,8 +84,16 @@
             {"name": "any", "decription": "long text"}
         ]
     },
-    {"divName": "WorkHours", "divTitle": "work-hours",
-        "className": "link","WorkHours": {"opening-time": "","closing-time": "","towmorw apoitmnts": ""}},
+    {
+        "divName": "WorkHours",
+        "divTitle": "work-hours",
+        "className": "link",
+        "WorkHours": {
+            "opening-time": "",
+            "closing-time": "",
+            "towmorw apoitmnts": ""
+        }
+    },
     {
         "divName": "about us",
         "divTitle": "about-us",
