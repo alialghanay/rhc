@@ -4,7 +4,7 @@ function Contant(porps) {
     const data = porps.data;
     return (
         <div id={data.id} className="contant">
-            <h2> <IconIf id={data.id}/> {data.title}</h2>
+            <h2><IconIf id={data.id}/>{data.title}</h2>
             <p>{data.pragraf}</p>
         </div>
     )

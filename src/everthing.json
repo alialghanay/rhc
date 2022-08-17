@@ -79,26 +79,26 @@
         "divTitle": "doctors",
         "className": "link",
         "Doctors": [
-            {"name": "any", "decription": "long text"},
-            {"name": "any", "decription": "long text"},
-            {"name": "any", "decription": "long text"}
+            {"name": "any", "sex": "M", "decription": "long text"},
+            {"name": "any", "sex": "F", "decription": "long text"},
+            {"name": "any", "sex": "M", "decription": "long text"}
         ]
     },
     {
         "divName": "WorkHours",
-        "divTitle": "work-hours",
+        "divTitle": "Work Hours",
         "className": "link",
         "WorkHours": {
-            "opening-time": "",
-            "closing-time": "",
-            "towmorw apoitmnts": ""
+            "opening-time": "9:00 a.m.",
+            "closing-time": "1:00 p.m.",
+            "tomorrow appointment": ""
         }
     },
     {
         "divName": "about us",
         "divTitle": "about-us",
         "className": "dropdown",
-        "contant":[   
+        "contant":[
             {
                 "title": "Vision",
                 "id": "vision",
@@ -113,6 +113,18 @@
                 "title": "Gole",
                 "id": "gole",
                 "pragraf": "long text "
+            },
+            {
+                "title": "Policies",
+                "id": "Policies"
+            },
+            {
+                "title": "Contact-Us",
+                "id": "contact",
+                "email": "info@riaaia.com",
+                "phone": "+218 91 091 4901",
+                "telephone": "+218 021 715 0001",
+                "city": "Tripoli -Libya"
             }
         ]
     }
